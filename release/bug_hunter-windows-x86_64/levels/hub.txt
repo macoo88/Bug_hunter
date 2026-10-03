@@ -1,0 +1,23 @@
+[Safe_hub.txt
+
++1
+0, 0
+
++7
+-300, 190 Increase immunity to bugs by 1\n costs 100KB
+
++8
+0, 0 W A S D -> movement\nL-Shift -> dash\nLMB / SPACE -> shoot
+200, 200 bug_hunters job isn't to fix the files..\ntheir job is to lower the corruption levels and make it possible for the fixers to do their job
+400, 200 most of the viruses are essentialy brain dead when it comes to self defense
+#400, 500 these viruses dont even know about each other..\nthey do not exist on the same place at the same time...\nbug_hunters simple bridge the gap
+
+
++9
+-158, 180
+
++0
+-200, -250 file1
+-50, -250 file2
+100, -250 file3
+250, -250 file4

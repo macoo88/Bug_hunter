@@ -1,0 +1,23 @@
+[passwords.txt
+
++1
+0, 0
+
++0
+-1000, -100 hub
+
++2
+1300, 0
+1020, 100
+1300, -225
+500, -1200
+
++3
+1375, -160
+1825, 20
+2500, 122
+1550, -1200
+
+
++8
+1550, -1200 these viruses dont even know about each other..\nthey do not exist on the same place at the same time...\nbug_hunters simple bridge the gap

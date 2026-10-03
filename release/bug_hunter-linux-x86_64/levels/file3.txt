@@ -1,0 +1,28 @@
+#types
+#0 backdoor
+#1 player
+#2 virus
+#3 rupture
+
+[bleee.txt
+
+# Startovacia pozicia hraca
++1
+0, 0
+
+# Unikovy backdoor spat do hubu (umiestneny daleko vpravo hore)
++0
+1200, -800 hub
+
+# Viaceri nepriatelia rozhadzani po okoli
++2
+-300, 200
+300, -200
+-400, -400
+600, 600
+
+# Dve nebezpecne trhliny (ruptures), ktore sedia blizko seba a chrlia bugov
++3
+800, 200
+900, -100
+
