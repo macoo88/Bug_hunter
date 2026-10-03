@@ -1,3 +1,4 @@
+```
 bug_hunter
 ├── Linux
 │   ├── works
@@ -8,3 +9,4 @@ bug_hunter
     ├── dash: mysteriously disabled
     ├── Shift: raylib says ¯\_(ツ)_/¯
     └── window: YOU SHALL NOT RESIZE
+```
