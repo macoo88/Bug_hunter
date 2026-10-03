@@ -1,0 +1,32 @@
+#types
+#0 backdoor
+#1 player
+#2 virus (random type)
+#3 rupture
+#8 archivetext
+#9 debuger
+
+#name  doesnt support spaces
+[Spagety_tutorial.txt
+
+#type + amount of it that follows
+#player
++1
+#pos: x, y
+0, 0
+
++0
+-800, 0 hub
+
++2
+400, 400
+500, 500
+
++3
+100, 100
+200, 200
+1500, 1150
+2000, 0
+
++8
+2000, 0 The company won't trust any corrupted bug_hunter

@@ -116,6 +116,7 @@ void UpdatePhysics(State *state) {
 
 // PLAYER -------------------------------
     Vector2 oldPos = state->player.pos;
+    float dist;
     
     if(state->player.dashTimer > 0)
     {
@@ -130,6 +131,8 @@ void UpdatePhysics(State *state) {
         {
             state->player.pos.x = oldPos.x;
         }
+        dist = abs((int)Vector2Distance(state->player.pos, rup->pos)); 
+        state->nearest_rup = rup->pos;
     }
 
     if(state->player.dashTimer > 0)
@@ -138,12 +141,6 @@ void UpdatePhysics(State *state) {
     }
     else { state->player.pos.y += state->player.input.y * state->player.speed * dt; }
      
-    float dist;
-
-    for(Rupture *rup = state->rups; rup != state->rups + state->rupCount; rup++)
-    {
-        if(rup->active){ dist = abs((int)Vector2Distance(state->player.pos, rup->pos)); break; }
-    }
     
     for(Rupture *rup = state->rups; rup != state->rups + state->rupCount; rup++)
     {
@@ -170,7 +167,7 @@ void UpdatePhysics(State *state) {
     }
 
 //backddors
-    dist = 10000;
+    dist = 1000000;
     for(Backdoor *bd = state->backdoors; bd != state->backdoors + state->backdoorCount; bd++)
     {
         float bd_dist = abs((int)Vector2Distance(state->player.pos, bd->pos));
